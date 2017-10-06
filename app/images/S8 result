@@ -1,0 +1,182 @@
+   </div>
+</div>	
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>MGU B.Tech Admission Portal</title>
+		<link href="./templates/blue/css/style.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="css/public_style.css" type="text/css" />
+		<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+		<script language="javascript" src="js/ajax/ajax.js"></script>
+        <script language="javascript" src="js/ajax/ajax_sp.js"></script>
+        <script language="javascript" src="js/formValidation.js"></script>
+        <script language="javascript">
+			
+			function displayContentHolder(){
+				document.getElementById('mgu_btech_contentholder').style.display="block";	
+				document.getElementById('mgu_btech_loginpanel').style.display="block";
+					
+			}
+			
+		</script>
+	</head>
+
+	<body onload="displayContentHolder();">
+	
+	<table align="center" cellpadding="0"  cellspacing="0" width="1024" bgcolor="#FFFFFF" >
+		<tr>
+			<td width="527"  height="141"><img src="images/mgu_logo.jpg" alt="Logo" width="527"></td>
+			<td width="10" class="header">&nbsp;</td>
+			<td width="487" align="center" valign="middle" class="header">
+            	B.Tech Admission Portal <br />
+                <div align="right" class="beta_fnt">[BETA]</div>
+            </td>
+		</tr>
+		<tr>
+			<td colspan="3" class="menu_bg" height="40" align="right" valign="middle">
+            <div id="mgu_btech_loginpanel" style="display:none;">
+                        <form method="post" name="login_frm" id="login_frm" action="modules/public/loginActionPg.php" onsubmit="return loginVal();">
+				
+                </form>
+                        </div>
+			</td>
+		</tr>
+        		<tr>
+			<td colspan="3" height="400" valign="top" align="center">
+            	<noscript>
+                	<table align="center" cellpadding="0" cellspacing="0" width="750" class="normal_font">
+                    	<tr>
+                        	<td height="50"></td>
+                        </tr>
+                        <tr>
+                        	<td height="20" align="center" class="redBold">***** Warning *****</td>
+                        </tr>
+                        <tr>
+                        	<td height="20"></td>
+                        </tr>
+                        <tr>
+                        	<td height="30" align="center">It is seemed that the browser javascript property is disabled</td>
+                        </tr>
+                        <tr>
+                        	<td height="30" align="center">You can access this site only after enabling the browser java script property. To enable Java Script plese do the following steps</td>
+                        </tr>
+                         <tr>
+                        	<td height="30" align="center">For Mozilla Firefox: tools -> options -> Tick the "Enable JavaScript" check box</td>
+                        </tr>
+                        <tr>
+                        	<td height="30" align="center">For Internet Explorer 6: tools -> internet options -> security -> custom level -> scripting -> Tick the "Enable" check box</td>
+                        </tr>
+                    </table>
+                </noscript>
+				<div id="mgu_btech_contentholder" style="display:none;"><style type="text/css">
+textarea, select, input{
+	background: #fff;
+	border:1px solid #8496BA;
+	/*width:213px;*/
+	padding:3px;
+	font:normal 12px "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+</style>
+<link rel="stylesheet" href="css/validationEngine.jquery.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+<script type="text/javascript" src="js/jquery-1.4.min.js"></script>
+
+<script src="js/jquery.validationEngine-en.js" type="text/javascript"></script>
+<script src="js/jquery.validationEngine.js" type="text/javascript"></script>
+
+
+<script>
+$(document).ready(function() {
+			// SUCCESS AJAX CALL, replace "success: false," by:     success : function() { callSuccessFunction() }, 
+			
+		//	$("#registration").validationEngine({inlineValidation:true,validationEventTriggers:"blur"})
+				$("#registrationqq").validationEngine({inlineValidation:true})
+			
+			//$.validationEngine.loadValidation("#date")
+			//alert($("#formID").validationEngine({returnIsValid:true}))
+			//$.validationEngine.buildPrompt("#date","This is an example","error")	 		 // Exterior prompt build example								 // input prompt close example
+			//$.validationEngine.closePrompt(".formError",true) 							// CLOSE ALL OPEN PROMPTS
+		});
+		
+		$(document).ready(function() {
+			// SUCCESS AJAX CALL, replace "success: false," by:     success : function() { callSuccessFunction() }, 
+			
+		//	$("#registration").validationEngine({inlineValidation:true,validationEventTriggers:"blur"})
+				$("#registration2qq").validationEngine({inlineValidation:true})
+			
+			//$.validationEngine.loadValidation("#date")
+			//alert($("#formID").validationEngine({returnIsValid:true}))
+			//$.validationEngine.buildPrompt("#date","This is an example","error")	 		 // Exterior prompt build example								 // input prompt close example
+			//$.validationEngine.closePrompt(".formError",true) 						//	// CLOSE ALL OPEN PROMPTS
+		});
+</script>
+<table align="center" cellpadding="0" cellspacing="0">
+	<tr><td colspan="3" height="25"></td></tr>
+    <tr>
+    	<td height="30" colspan="2" align="center" class="page_head">Result</td>
+       
+    </tr>
+      <tr>
+    <td height="30" colspan="2" align="center" class="page_head"><a href="pdf/notifMay2017.pdf"> Notification </a></td>
+    </tr>
+   
+    <tr><td colspan="3" height="25" align="center" class="error_msg"></td></tr>
+	
+	<tr>
+    <td colspan="2" align="right">
+    <form id="registration2" name="registration2" method="post" action="" target="_blank">
+        	<fieldset class="frame">
+            
+                <table border="0" align="center" class="mgu fs"  >
+                		<tr> 
+                            <td>
+                              <div align="left"></div></td>
+                            <td><div align="left">Examination</div></td>
+                            <td width="25" align="center">:</td>
+                            <td><div align="left"><select name="exam" id="exam" tabindex="1" class="validate[required]">
+                                <option value="">-- Select --</option>
+                                                                	<option value="66">Eighth Semester B Tech Degree Examination May 2017</option>
+                                                                	<option value="70">Seventh Semester B Tech Improvement/Supplementary Examination May 2017</option>
+                                                                	<option value="71">Eighth Semester B Tech Supplementary Examination May 2017</option>
+                                                              </select>
+                            </div></td>
+                          </tr>
+                        <tr> 
+                            <td width="50">
+                              <div align="left"></div></td>
+                            <td width="150"><div align="left">PRN</div></td>
+                            <td width="25" align="center">:</td>
+                            <td width="350"><input name="prn" type="text" id="prn" size="30" tabindex="2" maxlength="8" /></td>
+                          </tr>
+                         <tr> 
+                            <td><div align="left"></div></td>
+                            <td></td>
+                            <td></td>
+                            <td><div align="left"><input type="submit" name="Submit2" id="Submit2" value="Submit" class="submit" tabindex="3" /></div></td>
+                         </tr>
+                         <div id="par">                         </div>
+              </table>
+      </fieldset>
+      </form>
+      </td>
+    </tr>
+</table>
+	</div>
+            </td>
+		</tr>
+        <tr>
+			<td colspan="3" height="15" align="center"></td>
+		</tr>
+		<tr>
+			<td colspan="3" height="38" class="footer" align="center">
+				&copy;2017 MG University, All Rights Reserved. Powered by CETEX Team, M.G.University </td>
+		</tr>
+	</table>
+
+	</body>
+</html>
